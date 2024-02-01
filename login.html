@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="centered-container">
+        <div class="login-container">
+            <h2>Login to Equiself</h2> 
+            <form id="login-form">
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password"  id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <div id="error-message" class="error-message"></div>
+                <button type="submit">Login</button><br><br>
+
+                Dont have an account? <a href="register.html">Register here</a>
+            </form>
+        </div>
+    </div>
+    <script src="test.js"></script>
+</body>
+</html>
+

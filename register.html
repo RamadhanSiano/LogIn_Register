@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>registering Form</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="centered-container">
+        <div class="login-container">
+            <h2>Dont have an account? Register</h2>
+            <form id="login-form">
+                <div>
+                    <label for="firstname">First Name:</label>
+                    <input type="text" id="Fname" name="Fname" placeholder="Enter your Firstname" required>
+                </div>
+                <div>
+                    <label for="Lastname">Last Name:</label>
+                    <input type="text" id="Lname" name="Lname" placeholder="Enter your Lastname" required>
+                </div>
+                <div>
+                    <label for="Identity">I.D Number:</label>
+                    <input type="text" id="id" name="id" placeholder="Enter your I.D Number" required>
+                </div>
+                <div>
+                    <label for="Phone">Tel Number:</label>
+                    <input type="text" id="phone" name="phone" placeholder="Enter Phone Number" required>
+                </div>
+                <div id="error-message" class="error-message"></div>
+                <button type="submit">Register</button><br><br>
+                Already have an account? <a href="login.html">Log in</a>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
